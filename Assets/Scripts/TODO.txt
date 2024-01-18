@@ -1,0 +1,39 @@
+// Input
+// Tile select
+// Number placement
+// Pencil placement
+// Highlight
+    // Wrong number
+    // Same values highlight
+    // Same box highlight
+
+// Black borders
+
+// Pencil:
+//    When placing a number, pencil numbers of the same value should be removed in a box and horizontally and vertically
+//    When placing a wrong number, other numbers and all pencil numbers should be highlighted 
+
+// When selecting pencil, selectable numbers should change state
+
+// Undo
+//    Erase
+//    Number placed
+//    On Undo selecting tile do not animate borders
+
+// Score
+// Difficulty select
+// Restart
+// Timer
+// Mistakes made
+// Settings
+// Main menu
+// Win game
+// Level fail/won popup
+
+
+???
+Save system? Probably can be good to save level when quiting
+Is how I check if the board is solved okay? In GameModel.cs
+
+BUG:
+If placed the wrong number, while the border animation is playing, if correct number is placed, then the red (wrong number) border animation is still playing
